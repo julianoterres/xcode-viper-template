@@ -1,0 +1,19 @@
+//___FILEHEADER___
+
+import Foundation
+
+// MARK: Methods of ___VARIABLE_viperModuleName___InteractorProtocol
+class ___VARIABLE_viperModuleName___Interactor: ___VARIABLE_viperModuleName___InteractorProtocol {
+
+  var worker: ___VARIABLE_viperModuleName___InteractorToWorkerProtocol?
+  weak var presenter: ___VARIABLE_viperModuleName___InteractorToPresenterProtocol?
+
+}
+
+// MARK: Methods of ___VARIABLE_viperModuleName___PresenterToInteractorProtocol
+extension ___VARIABLE_viperModuleName___Interactor: ___VARIABLE_viperModuleName___PresenterToInteractorProtocol {
+}
+
+// MARK: Methods of ___VARIABLE_viperModuleName___WorkerToInteractorProtocol
+extension ___VARIABLE_viperModuleName___Interactor: ___VARIABLE_viperModuleName___WorkerToInteractorProtocol {
+}

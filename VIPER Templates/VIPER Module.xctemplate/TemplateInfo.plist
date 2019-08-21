@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Kind</key>
+    <string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+    <key>Description</key>
+    <string>Generates VIPER module files conforming to structure pattern.</string>
+    <key>Summary</key>
+    <string>Generates VIPER module files conforming to structure pattern.</string>
+    <key>SortOrder</key>
+    <string>10</string>
+    <key>AllowedTypes</key>
+    <array>
+      <string>public.swift-source</string>
+    </array>
+    <key>DefaultCompletionName</key>
+    <string>File</string>
+    <key>MainTemplateFile</key>
+    <string>___FILEBASENAME___.swift</string>
+    <key>Options</key>
+    <array>
+      <dict>
+        <key>Description</key>
+        <string>Name of the module that will be created</string>
+        <key>Identifier</key>
+        <string>viperModuleName</string>
+        <key>Name</key>
+        <string>Module name</string>
+        <key>Required</key>
+        <string>YES</string>
+        <key>Type</key>
+        <string>text</string>
+        <key>NotPersisted</key>
+        <true />
+        <key>Default</key>
+        <string />
+      </dict>
+      <dict>
+        <key>Default</key>
+        <string>___VARIABLE_viperModuleName___</string>
+        <key>Identifier</key>
+        <string>productName</string>
+        <key>Type</key>
+        <string>static</string>
+      </dict>
+    </array>
+  </dict>
+</plist>
